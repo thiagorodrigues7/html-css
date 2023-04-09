@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url(fonts/love\ larry\ ttf.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Melted';
+            font-weight: normal;
+            font-style: normal;
+            src: url(fonts/Melted\ Monster.ttf) format('truetype');
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        h1 {
+            font-family: 'Love';
+            font-size: 3em;
+            font-weight: normal;
+            text-align: center;
+        }
+        p {
+            font-family: 'Melted';
+            font-size: 20px;
+            font-weight: normal;
+            text-align: justify;
+            text-indent: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum qui ea iste labore ad omnis autem corrupti laborum, consequatur illum voluptatibus minus, possimus recusandae reprehenderit, sit enim soluta sequi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex architecto nesciunt ab repellendus. Eos excepturi officiis autem facilis ipsa eum illo architecto dignissimos. Officia et rerum suscipit. Officiis, cum?</p>
+</body>
+</html>
