@@ -2,3 +2,6 @@
 
 /* Aparelho deitado (lanscape) */
 
+body {
+    background: url(paisagem.css);
+}
